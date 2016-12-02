@@ -1,0 +1,9 @@
+{
+  "name": "cart-engine",
+  "keywords": [
+    "ember-addon"
+  ],
+  "dependencies": {
+    "ember-cli-htmlbars": "*"
+  }
+}

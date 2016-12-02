@@ -1,0 +1,17 @@
+<h1>Ember Engines Demo</h1>
+
+<ul>
+  <li>{{#link-to 'store'}}Go to Store{{/link-to}}</li>
+
+  <li>{{#link-to 'store.pdp'}}Go to PDP{{/link-to}}</li>
+
+  {{!-- This is a deep-link into the root of the cart engine --}}
+  <li>{{#link-to 'foo'}}Go to Cart Engine{{/link-to}}</li>
+
+  {{!-- This is a deep-link into the cart route of the cart engine --}}
+  <li>{{#link-to 'foo.cart'}}Go to Cart{{/link-to}}</li>
+</ul>
+
+<hr>
+
+{{outlet}}
